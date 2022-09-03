@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Say Hare Krishna
         uses: actions/checkout@v2
-        run: python src/hello.py
+      - run: python src/hello.py
