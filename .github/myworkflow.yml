@@ -1,0 +1,11 @@
+name: MyFirst-GitHub-Workflow
+
+on: [push]
+
+jobs: 
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hare Krishna
+        uses: actions/checkout@v2
+        run: python src/hello.py
